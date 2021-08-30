@@ -54,7 +54,6 @@ public class Chapter2 {
         else if(finalRes != -1) finalRes = Math.min(locCount, finalRes);
       }
 
-      System.out.println("Case #"+ i + ": " + finalRes);
       writer.close();
     }
   }
@@ -78,7 +77,6 @@ public class Chapter2 {
         continue;
       }
     }
-
     return -1;
   }
 
@@ -98,10 +96,9 @@ public class Chapter2 {
 
   }
 
-
   public void compute() throws FileNotFoundException {
 
-    File file = new File("/home/alexander/Documents/fb/fb_hackercup21/chapter1/consistency_chapter_2_sample_input.txt");
+    File file = new File("consistency_chapter_2_sample_input.txt");
     String filePath = file.getAbsolutePath();
 
     FileReader f = new FileReader(filePath);
