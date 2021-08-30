@@ -71,8 +71,8 @@ public class Chapter1 {
   
   public void compute() throws FileNotFoundException
   {
-    // ~/Documents/Programming/Facebook/HackerCup_21/chapter1/consistency_chapter_1_sample_input.txt
-      File file = new File("/Users/alexanderlavesson/Documents/Programming/Facebook/HackerCup_21/chapter1/consistency_chapter_1_sample_input.txt");
+    // 
+      File file = new File("");
       FileReader f = new FileReader(file);
 
       BufferedReader br = new BufferedReader(f);
